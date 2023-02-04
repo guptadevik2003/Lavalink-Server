@@ -1,0 +1,23 @@
+{
+  "name": "lavalink-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptadevik2003/Lavalink-Server.git"
+  },
+  "author": "Devik_NotFound#2695",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guptadevik2003/Lavalink-Server/issues"
+  },
+  "homepage": "https://github.com/guptadevik2003/Lavalink-Server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.9"
+  }
+}
