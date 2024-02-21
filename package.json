@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "bash start.sh"
+    "start": "bash start.sh",
+    "forever": "forever start --uid \"LAVA\" -a index.js && forever list"
   },
   "repository": {
     "type": "git",
