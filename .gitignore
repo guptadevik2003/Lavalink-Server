@@ -3,3 +3,4 @@ package-lock.json
 .env
 application.yml
 Lavalink.jar
+logs

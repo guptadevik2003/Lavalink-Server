@@ -12,7 +12,7 @@ fs.writeFileSync('./application.yml', application, 'utf-8')
 
 console.log('Downloading Lavalink.jar...')
 const file = fs.createWriteStream('./Lavalink.jar');
-fetch('https://cdn.darrennathanael.com/jars/Lavalink.jar').then(res => {
+fetch('https://github.com/lavalink-devs/Lavalink/releases/download/3.7.10/Lavalink.jar').then(res => {
     res.body.pipe(file)
     file.on('finish', () => {
         console.log('Downloaded Lavalink.jar')
